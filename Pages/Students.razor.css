@@ -1,0 +1,26 @@
+img{
+    width:100px;
+    aspect-ratio: 1/1;
+}
+.btn{
+background-color: rgb(181, 24, 24);
+border: none; /* Remove borders */
+color: white; /* White text */
+padding: 10px 14px; /* Some padding */
+font-size: 14px; /* Set a font size */
+cursor: pointer; /* Mouse pointer on hover */
+}
+.btn:hover {
+    background-color: rgb(131, 28, 28);
+  }
+.btn2{
+    background-color: rgb(42, 190, 223);
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 14px; /* Some padding */
+    font-size: 14px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    }
+.btn2:hover {
+        background-color: rgb(39, 154, 180);
+      }

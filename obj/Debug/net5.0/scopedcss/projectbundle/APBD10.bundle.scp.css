@@ -1,0 +1,198 @@
+@import '';
+
+/* _content/APBD10/Pages/StudentDetails.razor.rz.scp.css */
+.btn3[b-bcfy4vx7n5]{
+    background-color: rgb(21, 12, 185);
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 14px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    }
+.btn3:hover[b-bcfy4vx7n5] {
+        background-color: rgb(25, 19, 146);
+      }
+.fname[b-bcfy4vx7n5]{
+    margin-right: 150px;
+}
+.label[b-bcfy4vx7n5] {
+    width:150px;
+    display: inline-block;
+    padding: 10px 10px;
+  }
+img[b-bcfy4vx7n5]{
+    width:100px;
+    aspect-ratio: 1/1;
+}
+.column[b-bcfy4vx7n5] {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row[b-bcfy4vx7n5]:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* _content/APBD10/Pages/Students.razor.rz.scp.css */
+img[b-q7lo92k35k]{
+    width:100px;
+    aspect-ratio: 1/1;
+}
+.btn[b-q7lo92k35k]{
+background-color: rgb(181, 24, 24);
+border: none; /* Remove borders */
+color: white; /* White text */
+padding: 10px 14px; /* Some padding */
+font-size: 14px; /* Set a font size */
+cursor: pointer; /* Mouse pointer on hover */
+}
+.btn:hover[b-q7lo92k35k] {
+    background-color: rgb(131, 28, 28);
+  }
+.btn2[b-q7lo92k35k]{
+    background-color: rgb(42, 190, 223);
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 14px; /* Some padding */
+    font-size: 14px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    }
+.btn2:hover[b-q7lo92k35k] {
+        background-color: rgb(39, 154, 180);
+      }
+/* _content/APBD10/Shared/MainLayout.razor.rz.scp.css */
+.page[b-a28dcnv381] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.main[b-a28dcnv381] {
+    flex: 1;
+}
+
+.sidebar[b-a28dcnv381] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-a28dcnv381] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-a28dcnv381]  a, .top-row .btn-link[b-a28dcnv381] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-a28dcnv381] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-a28dcnv381] {
+        display: none;
+    }
+
+    .top-row.auth[b-a28dcnv381] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-a28dcnv381], .top-row .btn-link[b-a28dcnv381] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-a28dcnv381] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-a28dcnv381] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-a28dcnv381] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .main > div[b-a28dcnv381] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* _content/APBD10/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-lf9uby0wyg] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-lf9uby0wyg] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-lf9uby0wyg] {
+    font-size: 1.1rem;
+}
+
+.oi[b-lf9uby0wyg] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-lf9uby0wyg] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-lf9uby0wyg] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-lf9uby0wyg] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-lf9uby0wyg]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-lf9uby0wyg]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-lf9uby0wyg]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-lf9uby0wyg] {
+        display: none;
+    }
+
+    .collapse[b-lf9uby0wyg] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}

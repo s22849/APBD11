@@ -1,0 +1,34 @@
+.btn3[b-bcfy4vx7n5]{
+    background-color: rgb(21, 12, 185);
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 14px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    }
+.btn3:hover[b-bcfy4vx7n5] {
+        background-color: rgb(25, 19, 146);
+      }
+.fname[b-bcfy4vx7n5]{
+    margin-right: 150px;
+}
+.label[b-bcfy4vx7n5] {
+    width:150px;
+    display: inline-block;
+    padding: 10px 10px;
+  }
+img[b-bcfy4vx7n5]{
+    width:100px;
+    aspect-ratio: 1/1;
+}
+.column[b-bcfy4vx7n5] {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row[b-bcfy4vx7n5]:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

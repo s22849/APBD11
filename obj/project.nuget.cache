@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "iDyjGlt4AyLGTmkdk7tvrZBg/B+jXnBUr08uJtDlDJaZZwo3Urr6QYntc55Z//wC3ihkUjYpfHGiEZclDJcu0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\julia\\Desktop\\APBD10\\APBD10.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\julia\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
